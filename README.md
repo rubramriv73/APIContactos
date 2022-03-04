@@ -1,4 +1,4 @@
-# Desarrollo Entorno Servidor
+# Desarrollo Web Entorno Servidor
 #### Rubén Ramírez Rivera
 ## Acceso a la API de Contactos
 
@@ -8,8 +8,8 @@
 | --- | --- | --- | --- |
 | GET | /login | Login del usuario (usuario,password)| {"usuario": "admin","password": "admin"} |
 | GET | /contactos | Seleccionar todos los contactos|
-| GET | /contactos/ {id} | Seleccionar 1 contacto por su id|
 | POST | /contactos | Añadir un contacto | {"nombre": "Benito","telefono": "666111222","email": "benito69@gmail.com"} |
+| GET | /contactos/ {id} | Seleccionar 1 contacto por su id|
 | PUT | /contactos/ {id} | Actualizar contacto por su id | {"nombre": "Benito","telefono": "666111222","email": "benito69@gmail.com"} |
 | DELETE | /contactos/ {id} | Borrar un contacto por su id |
 
